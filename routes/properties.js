@@ -226,6 +226,7 @@ router.get('/:id', async (req, res) => {
   }
 });
 
+// Add new Property
 router.post('/', async (req, res) => {
   try {
     const propertyData = req.body;
